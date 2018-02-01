@@ -7,16 +7,17 @@ import os
 
 PIC_PATH = "C_0029_1.LEFT_CC.LJPEG.1.template.pgm";
 def create_PatchByGivenCordi(img, area, jpeg_file_path ,out_file_path):
-        print area
-        # cropped_img = img.crop(area)
-        # cropped_img.save(out_file_path)
+        #print area
+        #print(out_file_path , area)
+        cropped_img = img.crop(area)
+        cropped_img.save(out_file_path)
 
 
 def extrct_ROIImage(pgm_file_path, jpeg_file_path ,out_root_path, output_file_name):
         image = cv2.imread(pgm_file_path);
         img = Image.open(jpeg_file_path)
         width, height = img.size
-        print width
+        #print width
         gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
         blurred = cv2.GaussianBlur(gray, (5, 5), 0)
 
@@ -34,11 +35,13 @@ def extrct_ROIImage(pgm_file_path, jpeg_file_path ,out_root_path, output_file_na
         prevy = 0;
         prevw = 0;
         prevh = 0;
+
         for c in contours:
             # get the bounding rect
+#            print(c)
             x, y, w, h = cv2.boundingRect(c)
             if  prevx != x and prevy != y and prevw != w and prevh != h:
-                print x , y , x + w , y + h
+                #print x , y , x + w , y + h
 
                 left_rect = ((x - (((x+ w) - x) / 2 )) if (x - (((x+ w) - x) / 2 )) >= 0 else 0,
                               y , ((x + w ) - (((x+ w) - x) / 2 )) , y + h)
@@ -51,17 +54,17 @@ def extrct_ROIImage(pgm_file_path, jpeg_file_path ,out_root_path, output_file_na
 
                 create_PatchByGivenCordi(img, (x, y, x+w , y+h),
                                          jpeg_file_path , os.path.join(out_root_path, output_file_name)  )
-                create_PatchByGivenCordi(img, left_rect  ,jpeg_file_path ,
-                                          os.path.join(out_root_path, "left_"+output_file_name ))
-                create_PatchByGivenCordi(img, right_rect, jpeg_file_path,
-                                         os.path.join(out_root_path, "right_" + output_file_name))
-                create_PatchByGivenCordi(img, top_rect, jpeg_file_path,
-                                         os.path.join(out_root_path, "top_" + output_file_name))
-                create_PatchByGivenCordi(img, bot_rect, jpeg_file_path,
-                                         os.path.join(out_root_path, "bott_" + output_file_name))
+                # create_PatchByGivenCordi(img, left_rect  ,jpeg_file_path ,
+                #                           os.path.join(out_root_path, "left_"+output_file_name ))
+                # create_PatchByGivenCordi(img, right_rect, jpeg_file_path,
+                #                          os.path.join(out_root_path, "right_" + output_file_name))
+                # create_PatchByGivenCordi(img, top_rect, jpeg_file_path,
+                #                          os.path.join(out_root_path, "top_" + output_file_name))
+                # create_PatchByGivenCordi(img, bot_rect, jpeg_file_path,
+                #                          os.path.join(out_root_path, "bott_" + output_file_name))
 
-                print ((x + w) + (((x+ w) - x) / 2 ))
-                print (((x+ w) - x) / 2 ) , (((y+h) - y) / 2)
+                #print ((x + w) + (((x+ w) - x) / 2 ))
+                #print (((x+ w) - x) / 2 ) , (((y+h) - y) / 2)
                 # cv2.rectangle(image, (x, y), (x + w, y + h), (0, 255, 0), 2)
                 #
                 # # get the min area rect

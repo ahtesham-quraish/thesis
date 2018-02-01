@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ae31e70e-51cb-47aa-8f80-5cac5dca093c" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/CountPGM.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DeletePatchData.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/GenratingJPEG.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/GenratingPGM.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/GenratingPatches.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Model.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Model2.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/MovingPGM.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/demo.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/script.py" />
+      <change beforePath="$PROJECT_DIR$/12.png" afterPath="$PROJECT_DIR$/12.png" />
+      <change beforePath="$PROJECT_DIR$/C_0029_1.LEFT_CC.jpg" afterPath="$PROJECT_DIR$/C_0029_1.LEFT_CC.jpg" />
+      <change beforePath="$PROJECT_DIR$/Output_screenshot_12.01211.2018.png" afterPath="$PROJECT_DIR$/Output_screenshot_12.01211.2018.png" />
+      <change beforePath="$PROJECT_DIR$/aq/DOI/Mass-Test_P_00016_LEFT_CC_1/1.3.6.1.4.1.9590.100.1.2.259596319110047779433501728143778409887/1.3.6.1.4.1.9590.100.1.2.30820586311062570442302321942433426184/000000.dcm" afterPath="$PROJECT_DIR$/aq/DOI/Mass-Test_P_00016_LEFT_CC_1/1.3.6.1.4.1.9590.100.1.2.259596319110047779433501728143778409887/1.3.6.1.4.1.9590.100.1.2.30820586311062570442302321942433426184/000000.dcm" />
+      <change beforePath="$PROJECT_DIR$/aq/DOI/Mass-Test_P_00016_LEFT_CC_1/1.3.6.1.4.1.9590.100.1.2.259596319110047779433501728143778409887/1.3.6.1.4.1.9590.100.1.2.30820586311062570442302321942433426184/000001.dcm" afterPath="$PROJECT_DIR$/aq/DOI/Mass-Test_P_00016_LEFT_CC_1/1.3.6.1.4.1.9590.100.1.2.259596319110047779433501728143778409887/1.3.6.1.4.1.9590.100.1.2.30820586311062570442302321942433426184/000001.dcm" />
+      <change beforePath="$PROJECT_DIR$/aq/DOI/Mass-Test_P_00016_LEFT_MLO_1/1.3.6.1.4.1.9590.100.1.2.207144238612220754118040203520552715563/1.3.6.1.4.1.9590.100.1.2.381440141511137044327302306604206077287/000000.dcm" afterPath="$PROJECT_DIR$/aq/DOI/Mass-Test_P_00016_LEFT_MLO_1/1.3.6.1.4.1.9590.100.1.2.207144238612220754118040203520552715563/1.3.6.1.4.1.9590.100.1.2.381440141511137044327302306604206077287/000000.dcm" />
+      <change beforePath="$PROJECT_DIR$/aq/DOI/Mass-Test_P_00017_LEFT_CC_1/1.3.6.1.4.1.9590.100.1.2.265130777712709757209861180301164730118/1.3.6.1.4.1.9590.100.1.2.212143028513012144941507232513982203672/000000.dcm" afterPath="$PROJECT_DIR$/aq/DOI/Mass-Test_P_00017_LEFT_CC_1/1.3.6.1.4.1.9590.100.1.2.265130777712709757209861180301164730118/1.3.6.1.4.1.9590.100.1.2.212143028513012144941507232513982203672/000000.dcm" />
+      <change beforePath="$PROJECT_DIR$/aq/DOI/Mass-Test_P_00017_LEFT_CC_1/1.3.6.1.4.1.9590.100.1.2.265130777712709757209861180301164730118/1.3.6.1.4.1.9590.100.1.2.212143028513012144941507232513982203672/000001.dcm" afterPath="$PROJECT_DIR$/aq/DOI/Mass-Test_P_00017_LEFT_CC_1/1.3.6.1.4.1.9590.100.1.2.265130777712709757209861180301164730118/1.3.6.1.4.1.9590.100.1.2.212143028513012144941507232513982203672/000001.dcm" />
+      <change beforePath="$PROJECT_DIR$/aq/performance_1.txt" afterPath="$PROJECT_DIR$/aq/performance_1.txt" />
+      <change beforePath="$PROJECT_DIR$/code/C_0029_1.LEFT_CC.LJPEG.1.template.pgm" afterPath="$PROJECT_DIR$/code/C_0029_1.LEFT_CC.LJPEG.1.template.pgm" />
+      <change beforePath="$PROJECT_DIR$/code/C_0029_1.LEFT_MLO.LJPEG.1.template.pgm" afterPath="$PROJECT_DIR$/code/C_0029_1.LEFT_MLO.LJPEG.1.template.pgm" />
+      <change beforePath="$PROJECT_DIR$/code/common/ICSio.o" afterPath="$PROJECT_DIR$/code/common/ICSio.o" />
+      <change beforePath="$PROJECT_DIR$/code/common/aggregate.o" afterPath="$PROJECT_DIR$/code/common/aggregate.o" />
+      <change beforePath="$PROJECT_DIR$/code/common/cc_label.o" afterPath="$PROJECT_DIR$/code/common/cc_label.o" />
+      <change beforePath="$PROJECT_DIR$/code/common/convexpolyscan.o" afterPath="$PROJECT_DIR$/code/common/convexpolyscan.o" />
+      <change beforePath="$PROJECT_DIR$/code/common/convolve.o" afterPath="$PROJECT_DIR$/code/common/convolve.o" />
+      <change beforePath="$PROJECT_DIR$/code/common/libmammo.a" afterPath="$PROJECT_DIR$/code/common/libmammo.a" />
+      <change beforePath="$PROJECT_DIR$/code/common/mikesfileio.o" afterPath="$PROJECT_DIR$/code/common/mikesfileio.o" />
+      <change beforePath="$PROJECT_DIR$/code/common/myalloc.o" afterPath="$PROJECT_DIR$/code/common/myalloc.o" />
+      <change beforePath="$PROJECT_DIR$/code/common/optical_density.o" afterPath="$PROJECT_DIR$/code/common/optical_density.o" />
+      <change beforePath="$PROJECT_DIR$/code/common/overlay.o" afterPath="$PROJECT_DIR$/code/common/overlay.o" />
+      <change beforePath="$PROJECT_DIR$/code/common/pgm_io.o" afterPath="$PROJECT_DIR$/code/common/pgm_io.o" />
+      <change beforePath="$PROJECT_DIR$/code/common/simpletiff.o" afterPath="$PROJECT_DIR$/code/common/simpletiff.o" />
+      <change beforePath="$PROJECT_DIR$/code/common/virtual_image.o" afterPath="$PROJECT_DIR$/code/common/virtual_image.o" />
+      <change beforePath="$PROJECT_DIR$/contours_screenshot_12.01.20181.png" afterPath="$PROJECT_DIR$/contours_screenshot_12.01.20181.png" />
+      <change beforePath="$PROJECT_DIR$/convert.py" afterPath="$PROJECT_DIR$/convert.py" />
+      <change beforePath="$PROJECT_DIR$/data/C_0029_1.LEFT_CC.jpg" afterPath="$PROJECT_DIR$/data/C_0029_1.LEFT_CC.jpg" />
+      <change beforePath="$PROJECT_DIR$/findROIImage.py" afterPath="$PROJECT_DIR$/findROIImage.py" />
+      <change beforePath="$PROJECT_DIR$/jpegdir/chendct.o" afterPath="$PROJECT_DIR$/jpegdir/chendct.o" />
+      <change beforePath="$PROJECT_DIR$/jpegdir/codec.o" afterPath="$PROJECT_DIR$/jpegdir/codec.o" />
+      <change beforePath="$PROJECT_DIR$/jpegdir/huffman.o" afterPath="$PROJECT_DIR$/jpegdir/huffman.o" />
+      <change beforePath="$PROJECT_DIR$/jpegdir/io.o" afterPath="$PROJECT_DIR$/jpegdir/io.o" />
+      <change beforePath="$PROJECT_DIR$/jpegdir/jpeg.o" afterPath="$PROJECT_DIR$/jpegdir/jpeg.o" />
+      <change beforePath="$PROJECT_DIR$/jpegdir/leedct.o" afterPath="$PROJECT_DIR$/jpegdir/leedct.o" />
+      <change beforePath="$PROJECT_DIR$/jpegdir/lexer.o" afterPath="$PROJECT_DIR$/jpegdir/lexer.o" />
+      <change beforePath="$PROJECT_DIR$/jpegdir/marker.o" afterPath="$PROJECT_DIR$/jpegdir/marker.o" />
+      <change beforePath="$PROJECT_DIR$/jpegdir/stream.o" afterPath="$PROJECT_DIR$/jpegdir/stream.o" />
+      <change beforePath="$PROJECT_DIR$/jpegdir/transform.o" afterPath="$PROJECT_DIR$/jpegdir/transform.o" />
+      <change beforePath="$PROJECT_DIR$/newboundingbox.py" afterPath="$PROJECT_DIR$/newboundingbox.py" />
+      <change beforePath="$PROJECT_DIR$/nushari.py" afterPath="$PROJECT_DIR$/nushari.py" />
+      <change beforePath="$PROJECT_DIR$/ouput.jpg" afterPath="$PROJECT_DIR$/ouput.jpg" />
+      <change beforePath="$PROJECT_DIR$/out/1.jpg" afterPath="$PROJECT_DIR$/out/1.jpg" />
+      <change beforePath="$PROJECT_DIR$/out/10.jpg" afterPath="$PROJECT_DIR$/out/10.jpg" />
+      <change beforePath="$PROJECT_DIR$/out/11.jpg" afterPath="$PROJECT_DIR$/out/11.jpg" />
+      <change beforePath="$PROJECT_DIR$/out/12.jpg" afterPath="$PROJECT_DIR$/out/12.jpg" />
+      <change beforePath="$PROJECT_DIR$/out/2.jpg" afterPath="$PROJECT_DIR$/out/2.jpg" />
+      <change beforePath="$PROJECT_DIR$/out/3.jpg" afterPath="$PROJECT_DIR$/out/3.jpg" />
+      <change beforePath="$PROJECT_DIR$/out/4.jpg" afterPath="$PROJECT_DIR$/out/4.jpg" />
+      <change beforePath="$PROJECT_DIR$/out/5.jpg" afterPath="$PROJECT_DIR$/out/5.jpg" />
+      <change beforePath="$PROJECT_DIR$/out/6.jpg" afterPath="$PROJECT_DIR$/out/6.jpg" />
+      <change beforePath="$PROJECT_DIR$/out/7.jpg" afterPath="$PROJECT_DIR$/out/7.jpg" />
+      <change beforePath="$PROJECT_DIR$/out/8.jpg" afterPath="$PROJECT_DIR$/out/8.jpg" />
+      <change beforePath="$PROJECT_DIR$/out/9.jpg" afterPath="$PROJECT_DIR$/out/9.jpg" />
+      <change beforePath="$PROJECT_DIR$/patches.py" afterPath="$PROJECT_DIR$/patches.py" />
+      <change beforePath="$PROJECT_DIR$/shapes_and_colors.jpg" afterPath="$PROJECT_DIR$/shapes_and_colors.jpg" />
+      <change beforePath="$PROJECT_DIR$/t1.png" afterPath="$PROJECT_DIR$/t1.png" />
+      <change beforePath="$PROJECT_DIR$/t2.png" afterPath="$PROJECT_DIR$/t2.png" />
+      <change beforePath="$PROJECT_DIR$/t3.png" afterPath="$PROJECT_DIR$/t3.png" />
+      <change beforePath="$PROJECT_DIR$/t4.png" afterPath="$PROJECT_DIR$/t4.png" />
+      <change beforePath="$PROJECT_DIR$/t5.png" afterPath="$PROJECT_DIR$/t5.png" />
+      <change beforePath="$PROJECT_DIR$/test.jpg" afterPath="$PROJECT_DIR$/test.jpg" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="GenratingPatches.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GenratingPatches.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="628">
+              <caret line="43" column="38" lean-forward="false" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Model.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="537">
+              <caret line="122" column="49" lean-forward="false" selection-start-line="122" selection-start-column="49" selection-end-line="122" selection-end-column="49" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Model2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Model2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="111" column="44" lean-forward="false" selection-start-line="111" selection-start-column="20" selection-end-line="111" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/script.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="prepare.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/prepare.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="648">
+              <caret line="36" column="13" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="newModel.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/newModel.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1015">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="newModel2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/newModel2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1547">
+              <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="newModel3.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/newModel3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="102" column="36" lean-forward="false" selection-start-line="102" selection-start-column="29" selection-end-line="102" selection-end-column="36" />
+              <folding>
+                <element signature="e#1117#1135#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="findROIImage.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/findROIImage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1008">
+              <caret line="60" column="29" lean-forward="false" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
+              <folding>
+                <element signature="e#1#22#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>os.join.path</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>os.path.join</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/convert.py" />
+        <option value="$PROJECT_DIR$/GenratingJPEG.py" />
+        <option value="$PROJECT_DIR$/GenratingPGM.py" />
+        <option value="$PROJECT_DIR$/pgm/GenratingPGM.py" />
+        <option value="$PROJECT_DIR$/pgm_beng/GenratingPGM.py" />
+        <option value="$PROJECT_DIR$/normal/GenratingPGM.py" />
+        <option value="$PROJECT_DIR$/MovingPGM.py" />
+        <option value="$PROJECT_DIR$/pgm_files/GenratingPGM.py" />
+        <option value="$PROJECT_DIR$/pgm_files_bn/GenratingPGM.py" />
+        <option value="$PROJECT_DIR$/pgm_files/MovingPGM.py" />
+        <option value="$PROJECT_DIR$/pgm_files_bn/MovingPGM.py" />
+        <option value="$PROJECT_DIR$/HistrogramEq.py" />
+        <option value="$PROJECT_DIR$/DeletePatchData.py" />
+        <option value="$PROJECT_DIR$/GenratingPatches.py" />
+        <option value="$PROJECT_DIR$/CountPGM.py" />
+        <option value="$PROJECT_DIR$/findROIImage.py" />
+        <option value="$PROJECT_DIR$/Model.py" />
+        <option value="$PROJECT_DIR$/demo.py" />
+        <option value="$PROJECT_DIR$/Model2.py" />
+        <option value="$PROJECT_DIR$/script.py" />
+        <option value="$PROJECT_DIR$/prepare.py" />
+        <option value="$PROJECT_DIR$/newModel2.py" />
+        <option value="$PROJECT_DIR$/newModel3.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="75" />
+    <option name="y" value="16" />
+    <option name="width" value="1281" />
+    <option name="height" value="732" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="thesis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thesis" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.prepare">
+    <configuration name="Model" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="thesis" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Model.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Model2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="thesis" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Model2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="thesis" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="prepare" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="thesis" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prepare.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="script" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="thesis" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/script.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.Model" />
+      <item index="1" class="java.lang.String" itemvalue="Python.demo" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Model2" />
+      <item index="3" class="java.lang.String" itemvalue="Python.script" />
+      <item index="4" class="java.lang.String" itemvalue="Python.prepare" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.prepare" />
+        <item index="1" class="java.lang.String" itemvalue="Python.script" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Model2" />
+        <item index="3" class="java.lang.String" itemvalue="Python.demo" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Model" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ae31e70e-51cb-47aa-8f80-5cac5dca093c" name="Default" comment="" />
+      <created>1516704104236</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1516704104236</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="75" y="16" width="1303" height="780" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24596465" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2957958" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3993994" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/GenratingPGM.py</url>
+          <line>21</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="12" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/GenratingPatches.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="43" column="38" lean-forward="false" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HistrogramEq.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GenratingJPEG.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CountPGM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeletePatchData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="21" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nushari.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#44#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/findROIImage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="60" column="29" lean-forward="false" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
+          <folding>
+            <element signature="e#1#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2088">
+          <caret line="116" column="21" lean-forward="true" selection-start-line="116" selection-start-column="21" selection-end-line="116" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/convert.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="53" column="24" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="58" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GenratingPGM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="42" lean-forward="false" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#9#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/template/aq/case0029/case_make_template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GenratingJPEG.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pgm/GenratingPGM.py" />
+    <entry file="file://$PROJECT_DIR$/code/template/aq/case0029/case_make_template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pgm/GenratingPGM.py" />
+    <entry file="file://$PROJECT_DIR$/pgm_beng/GenratingPGM.py" />
+    <entry file="file://$PROJECT_DIR$/normal/GenratingPGM.py" />
+    <entry file="file://$PROJECT_DIR$/patches.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/convert.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="103" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GenratingPGM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-230">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#9#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MovingPGM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pgm_files/GenratingPGM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pgm_files/D_4178_1.LEFT_CC.LJPEG.1.template.pgm" />
+    <entry file="file://$PROJECT_DIR$/pgm_files/MovingPGM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pgm_files_bn/MovingPGM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-41">
+          <caret line="13" column="29" lean-forward="false" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pgm_files_bn/GenratingPGM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeletePatchData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GenratingJPEG.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nushari.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#44#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HistrogramEq.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CountPGM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/findROIImage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="60" column="29" lean-forward="false" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
+          <folding>
+            <element signature="e#1#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1015">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GenratingPatches.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="628">
+          <caret line="43" column="38" lean-forward="false" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prepare.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="36" column="13" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newModel2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1547">
+          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="122" column="49" lean-forward="false" selection-start-line="122" selection-start-column="49" selection-end-line="122" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="111" column="44" lean-forward="false" selection-start-line="111" selection-start-column="20" selection-end-line="111" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newModel3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="102" column="36" lean-forward="false" selection-start-line="102" selection-start-column="29" selection-end-line="102" selection-end-column="36" />
+          <folding>
+            <element signature="e#1117#1135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
